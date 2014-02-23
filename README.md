@@ -24,7 +24,7 @@ Rails4をherokuで公開する方法
 0からセットアップ
 ---
 
-### Railsのセットアップ
+### Railsプロジェクトの作成
 
 - Railsのプロジェクトを作成する段階から解説します。
 - ここでは、`rails4heroku`というプロジェクト名にし、同じくheroku上にも`rails4heroku`という名前のアプリケーションを作成します。
@@ -44,6 +44,9 @@ gitに初期状態を登録しておきます。
 % git add .
 % git commit -m 'created project'
 ```
+
+
+### Railsの設定変更
 
 Railsのデフォルトでは、データベースエンジンがSQLiteになっていますが、[herokuでは利用出来ません](https://devcenter.heroku.com/articles/sqlite3)。その代わり、PostgreSQLというデータベースが利用出来るようになっています。
 
