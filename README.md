@@ -6,6 +6,9 @@ Rails4をherokuで公開する方法
 概要
 ---
 現在最新のRuby on Rails 4.0.3をherokuで公開するための設定を記載します。
+大きく、2つの項目で構成されます。
+- 0からのゼットアップ
+- このサンプルコードを使って動かす
 
 
 要件
@@ -77,12 +80,12 @@ Railsのデフォルトでは、データベースエンジンがSQLiteになっ
 % g commit -a -m 'enabled static asset distribution'
 ```
 
-
 この状態でもアプリケーションは動くのですが、普通のアプリケーションはデータベースを利用していると思うので、適当にscaffoldを使ってアプリケーションを作っておきます。
+
 ```
 % rails g scaffold todos name:string
-% rake db:migrate
-``` 
+% rake db:migrate 
+```
 
 また、トップページにアクセスしたときに、今作ったアプリケーションのindexが表示されるように、`config/routes.rb`を変更します。
 - https://github.com/matsubo/rails4heroku/commit/53f5639a0cda6c4f28b21f8a4f67779ddefb2901
@@ -142,7 +145,7 @@ URLのサブドメイン名は各自が作成したアプリケーション名�
 
 
 
-サンプルコードを使って試してみる
+サンプルコード使って動かす
 ---
 
 このサンプルコードを使って、簡単に試してみる場合は以下のコマンドを順番に行えば出来ます。
