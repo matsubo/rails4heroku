@@ -62,7 +62,7 @@ Railsのデフォルトでは、データベースエンジンがSQLiteになっ
 
 変更が終わったら、gitにコミットしておきます。
 ```
-% g commit -a -m 'Disabled sqlite3 on production'
+% git commit -a -m 'Disabled sqlite3 on production'
 ```
 
 
@@ -80,7 +80,7 @@ Railsのデフォルトでは、データベースエンジンがSQLiteになっ
 
 念のため、gitにコミットしておきます。
 ```
-% g commit -a -m 'enabled static asset distribution'
+% git commit -a -m 'enabled static asset distribution'
 ```
 
 この状態でもアプリケーションは動くのですが、普通のアプリケーションはデータベースを利用していると思うので、適当にscaffoldを使ってアプリケーションを作っておきます。
@@ -105,7 +105,7 @@ Railsのデフォルトでは、データベースエンジンがSQLiteになっ
 
 これにてソースコードの変更は終わりなので、gitにコミットします。
 ```
-% g add .
+% git add .
 % git commit -a -m 'Created todo application'
 ```
 
