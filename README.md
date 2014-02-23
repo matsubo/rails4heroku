@@ -15,10 +15,10 @@ Rails4をherokuで公開する方法
 ---
 以下のツールがセットアップされている前提です。
 
-- git
-- Heroku Toolbelt
-- Ruby 1.9~ or 2.0~
-- bundler
+- [git](http://git-scm.com/)
+- [Heroku Toolbelt](https://toolbelt.heroku.com/)
+- [Ruby](https://www.ruby-lang.org/) 1.9~ or 2.0~
+- [bundler](http://bundler.io/)
 
 
 0からセットアップ
