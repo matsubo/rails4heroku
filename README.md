@@ -75,7 +75,7 @@ Railsのデフォルトでは、データベースエンジンがSQLiteになっ
 
 こちらのURLを参考に、`config.serve_static_assets`をtrueにしておきます。
 
-- https://github.com/matsubo/rails4heroku/commit/43e2ab326657a70f4b2563cd673b9a878a391a82```
+- https://github.com/matsubo/rails4heroku/commit/43e2ab326657a70f4b2563cd673b9a878a391a82
 
 
 念のため、gitにコミットしておきます。
